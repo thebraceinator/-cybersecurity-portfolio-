@@ -1,60 +1,50 @@
-# Log Alerting System
+# Cybersecurity Portfolio – Log Alerting System
 
-This is a simple Python-based log monitoring script designed to detect suspicious activity in server log files, such as:
+Welcome to my cybersecurity portfolio! This repository features a Python-based **log alerting system** that simulates core Security Operations Center (SOC) tasks — specifically, identifying suspicious activity such as brute-force login attempts and anomalous logins.
 
--  Multiple failed login attempts from the same IP
--  Successful logins during odd hours (e.g., 12 AM – 6 AM)
+## Project Overview
 
-##  How It Works
+This project demonstrates my ability to:
+- Write clean and modular Python code
+- Work with JSON-formatted log data
+- Detect security anomalies using custom logic
+- Send **automated email alerts** via SMTP (Gmail)
+- Apply real-world thinking to cybersecurity monitoring
 
-The script (`analyze_logs.py`) analyzes JSON-formatted logs and detects:
+## Features
 
-1. **Brute-force attempts**: More than 5 failed logins from the same user/IP within a 5-minute window.
-2. **Suspicious login times**: Successful logins occurring between midnight and 6 AM.
+- Brute-force login detection (5+ failed attempts from same IP)
+- Suspicious login detection (e.g., logins at odd hours)
+- Email alerting via Gmail using Python's `smtplib`
+- Upcoming: Slack alerts, file output, log dashboard (future phase)
 
-Alerts are printed to the terminal and also written to `alerts_output.txt`.
+## Files Included
 
-## 📁 Files Included
+- `analyze_logs.py` – Base version for log detection
+- `analyze_logs_with_email.py` – Version that sends email alerts
+- `simulated_logs.json` – Sample log data for testing
 
-- `analyze_logs.py`: Main script to run
-- `simulated_logs.json`: Sample log entries for testing
-- `alerts_output.txt`: Output alerts from the analysis
+## Tech Stack
+
+- Python 3.8+
+- JSON
+- Gmail SMTP (for email alerts)
 
 ## How to Run
 
-1. Place all files in the same folder.
-2. Open terminal and navigate to that folder:
+1. Clone the repo:
    ```bash
-   cd ~/Documents/log\ alerting
-   ```
-3. Run the script:
-   ```bash
-   python3 analyze_logs.py
-   ```
+   git clone https://github.com/thebraceinator/cybersecurity-portfolio.git
+   cd cybersecurity-portfolio
+2. Install dependencies (if any are added)
+3. Run: python3 analyze_logs_with_email.py
+4. View alerts in your email inbox (configured in script)
+      sender = "your-email@gmail.com"
+      recipient = "recipient-email@gmail.com"
+      app_password = "your-app-password"
 
-## Sample Output
+## About Me
 
-```
-Multiple failed logins detected for user wayne_b from 192.168.1.12
-Suspicious login at 03:00 by user john_smith from 10.0.0.5
-```
+I’m Wayne Bracy — a QA engineer transitioning into cybersecurity with hands-on projects like this one. I’ve completed the Google Cybersecurity Certificate and am currently preparing to sut for the CompTIA Security+ exam. 
 
-## Skills Demonstrated
-
-- Python scripting
-- Security log analysis
-- Brute-force detection
-- Time-based anomaly detection
-- JSON parsing and data handling
-
-## Next Steps (Ideas for Enhancement)
-
-- Add severity levels to alerts
-- Parse logs from real syslog/CSV files
-- Add IP geolocation lookup (e.g., using IPinfo API)
-- Integrate with a basic dashboard or email alert
-
-##  Author
-
-Wayne Bracy  
-Aspiring Cybersecurity Analyst | Former QA Engineer | Security+ Candidate
+Let’s connect on LinkedIn or see more of my work on GitHub.
