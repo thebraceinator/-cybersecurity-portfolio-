@@ -49,3 +49,5 @@ I’m Wayne Bracy — a QA engineer transitioning into cybersecurity with hands-
 
 Let’s connect on [LinkedIn](https://linkedin.com/in/wayne-bracy) or see more of my work on [GitHub](https://github.com/thebraceinator).
 
+
+
