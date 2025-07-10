@@ -47,4 +47,5 @@ This project demonstrates my ability to:
 
 I’m Wayne Bracy — a QA engineer transitioning into cybersecurity with hands-on projects like this one. I’ve completed the Google Cybersecurity Certificate and am currently preparing to sut for the CompTIA Security+ exam. 
 
-Let’s connect on LinkedIn or see more of my work on GitHub.
+Let’s connect on [LinkedIn](https://linkedin.com/in/wayne-bracy) or see more of my work on [GitHub](https://github.com/thebraceinator).
+
