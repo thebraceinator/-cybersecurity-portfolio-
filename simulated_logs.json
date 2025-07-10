@@ -1,38 +1,38 @@
-[
-    {
-        "timestamp": "2025-07-07T14:05:00",
-        "username": "wayne_b",
-        "ip_address": "192.168.1.12",
-        "event": "failed_login"
-    },
-    {
-        "timestamp": "2025-07-07T14:06:00",
-        "username": "wayne_b",
-        "ip_address": "192.168.1.12",
-        "event": "failed_login"
-    },
-    {
-        "timestamp": "2025-07-07T14:06:30",
-        "username": "wayne_b",
-        "ip_address": "192.168.1.12",
-        "event": "failed_login"
-    },
-    {
-        "timestamp": "2025-07-07T14:07:00",
-        "username": "wayne_b",
-        "ip_address": "192.168.1.12",
-        "event": "failed_login"
-    },
-    {
-        "timestamp": "2025-07-07T14:07:30",
-        "username": "wayne_b",
-        "ip_address": "192.168.1.12",
-        "event": "failed_login"
-    },
-    {
-        "timestamp": "2025-07-07T03:00:00",
-        "username": "john_smith",
-        "ip_address": "10.0.0.5",
-        "event": "successful_login"
-    }
+
+  {
+    "timestamp": "2025-07-08T03:00:00",
+    "user": "john_smith",
+    "ip": "10.0.0.5",
+    "action": "login"
+  },
+  {
+    "timestamp": "2025-07-08T03:01:00",
+    "user": "wayne_b",
+    "ip": "192.168.1.12",
+    "action": "failed_login"
+  },
+  {
+    "timestamp": "2025-07-08T03:02:00",
+    "user": "wayne_b",
+    "ip": "192.168.1.12",
+    "action": "failed_login"
+  },
+  {
+    "timestamp": "2025-07-08T03:03:00",
+    "user": "wayne_b",
+    "ip": "192.168.1.12",
+    "action": "failed_login"
+  },
+  {
+    "timestamp": "2025-07-08T03:04:00",
+    "user": "wayne_b",
+    "ip": "192.168.1.12",
+    "action": "failed_login"
+  },
+  {
+    "timestamp": "2025-07-08T03:05:00",
+    "user": "wayne_b",
+    "ip": "192.168.1.12",
+    "action": "failed_login"
+  }
 ]
